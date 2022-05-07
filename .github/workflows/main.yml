@@ -23,4 +23,13 @@ jobs:
           cache: "npm"
       - run: npm ci
       - run: npm lint
+<<<<<<< HEAD
+      - run: npm run check-format
+      - run: npm run build
+      - name: Cypress run
+        uses: cypress-io/github-action@v2
+        with:
+          start: npm start
+=======
       - run: npm run build --if-present
+>>>>>>> b5a41502736351b14c64260d53d86f5167ef64cb
