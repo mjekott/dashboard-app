@@ -7,7 +7,11 @@ const Container = styled.div<{ theme: string }>`
 `;
 
 const Home: NextPage = () => {
-  return <Container theme="light"></Container>;
+  return (
+    <Container theme="light">
+      <h1>Welcome to Next js</h1>
+    </Container>
+  );
 };
 
 export default Home;
