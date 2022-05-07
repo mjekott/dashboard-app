@@ -1,0 +1,7 @@
+module.exports = {
+  extends: ["next/core-web-vitals", "eslint:recommended", "prettier", "plugin:storybook/recommended"],
+  plugins: ["cypress"],
+  env: {
+    "cypress/globals": true
+  }
+};
