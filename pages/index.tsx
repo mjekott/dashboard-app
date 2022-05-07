@@ -10,6 +10,7 @@ const Home: NextPage = () => {
   return (
     <Container theme="light">
       <h1>Welcome to Next js</h1>
+      <p>Setup prettier</p>
     </Container>
   );
 };
